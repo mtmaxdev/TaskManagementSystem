@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Api", "TaskManagementSystem.Api\TaskManagementSystem.Api.csproj", "{B6F7470D-D0EF-490F-BA9A-06082E4DA8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Domain", "TaskManagementSystem.Domain\TaskManagementSystem.Domain.csproj", "{CF7E931C-2F90-48AE-ADEA-B5486F772703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Application", "TaskManagementSystem.Application\TaskManagementSystem.Application.csproj", "{3AA301F5-F6EE-4960-ABC3-8A8A75545740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Infrastructure", "TaskManagementSystem.Infrastructure\TaskManagementSystem.Infrastructure.csproj", "{79348726-D854-402D-B3D0-D5251AC61695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Tests", "TaskManagementSystem.Tests\TaskManagementSystem.Tests.csproj", "{B5C135C6-B8B4-4C84-B498-9DC9873E836E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.EventHandler", "TaskManagementSystem.EventHandler\TaskManagementSystem.EventHandler.csproj", "{2C3BB0F5-324D-4B50-B574-68755AB508DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{057AE81E-C539-4338-9D75-292A83117F53}"
+	ProjectSection(SolutionItems) = preProject
+		..\build\docker-compose.yml = ..\build\docker-compose.yml
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6F7470D-D0EF-490F-BA9A-06082E4DA8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F7470D-D0EF-490F-BA9A-06082E4DA8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F7470D-D0EF-490F-BA9A-06082E4DA8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F7470D-D0EF-490F-BA9A-06082E4DA8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7E931C-2F90-48AE-ADEA-B5486F772703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7E931C-2F90-48AE-ADEA-B5486F772703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7E931C-2F90-48AE-ADEA-B5486F772703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7E931C-2F90-48AE-ADEA-B5486F772703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA301F5-F6EE-4960-ABC3-8A8A75545740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA301F5-F6EE-4960-ABC3-8A8A75545740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA301F5-F6EE-4960-ABC3-8A8A75545740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA301F5-F6EE-4960-ABC3-8A8A75545740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79348726-D854-402D-B3D0-D5251AC61695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79348726-D854-402D-B3D0-D5251AC61695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79348726-D854-402D-B3D0-D5251AC61695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79348726-D854-402D-B3D0-D5251AC61695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C135C6-B8B4-4C84-B498-9DC9873E836E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C135C6-B8B4-4C84-B498-9DC9873E836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C135C6-B8B4-4C84-B498-9DC9873E836E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C135C6-B8B4-4C84-B498-9DC9873E836E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3BB0F5-324D-4B50-B574-68755AB508DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3BB0F5-324D-4B50-B574-68755AB508DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3BB0F5-324D-4B50-B574-68755AB508DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3BB0F5-324D-4B50-B574-68755AB508DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
